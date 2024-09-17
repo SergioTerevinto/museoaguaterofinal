@@ -1,0 +1,49 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+/* Así se agregan los comentarios en los archivos .css*/
+
+/* Una declaración css se compone de un selector, una propiedad y un valor.
+
+Selector | Apunta al elemento html que queremos estilizar o darle estilo
+Propiedad | Aspecto que queremos cambiar
+Valor | Configuracion de esa propiedad */
+
+.menu-header {
+  font-family: "Josefin Sans", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.navbar-brand {
+    color: #cd022d;
+}
+.nav-link {
+    color: #096648;
+}
+.nav-link:hover {
+    color: #cd022d;
+}
+.btn {
+    color: #cd022d;
+    border-color: #cd022d;
+}
+.card-img-top {
+    width: 50%;
+    height: 50%;
+}
+.navbar-brand {
+    color: #cd022d;
+    text-decoration: none;
+    font-family: "Josefin Sans", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.navbar-brand:hover {
+    color: #096648;
+}
