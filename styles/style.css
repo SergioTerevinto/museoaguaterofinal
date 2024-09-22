@@ -47,3 +47,7 @@ Valor | Configuracion de esa propiedad */
 .navbar-brand:hover {
     color: #096648;
 }
+.btn-submit {
+    color:  #ffffff;
+    background-color: #cd022d;
+}

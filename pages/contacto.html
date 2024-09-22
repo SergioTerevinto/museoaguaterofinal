@@ -46,16 +46,22 @@
     </header>
     <main>
          <h1>CONTACTÁNOS</h1>
-         <form action="formulario" class="form">
-            <label for="nombre">Nombre completo</label>
-            <input type="text" id="nombre" class="box">
-            <label for="correo">Email</label>
-            <input type="email" name="email" id="email" class="box">
-            <label for="ciudad">Ciudad</label>
-            <input type="text" name="ciudad" id="ciudad" class="box">
-            <label for="mensaje">Escribe tu mensaje</label>
-            <textarea name="mensaje" id="mensaje"></textarea>
-            <input type="submit" value="Enviar" class="submit">
+         <form class="contactanos">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@mail.com">
+          </div>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Motivo del mensaje</option>
+            <option value="1">Préstamo de objetos</option>
+            <option value="2">Donación de objetos</option>
+            <option value="3">Otro motivo</option>
+          </select>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Escribe tu mensaje aquí.</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn-submit btn-primary">Enviar</button>
         </form>
     </main>
 
