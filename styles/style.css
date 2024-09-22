@@ -29,20 +29,13 @@ Valor | Configuracion de esa propiedad */
     color: #cd022d;
 }
 .btn {
-    color: #cd022d;
+    background-color: #cd022d;
     border-color: #cd022d;
+    text-decoration-color: #ffffff;
 }
 .card-img-top {
     width: 50%;
     height: 50%;
-}
-.navbar-brand {
-    color: #cd022d;
-    text-decoration: none;
-    font-family: "Josefin Sans", system-ui;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
 }
 .navbar-brand:hover {
     color: #096648;
@@ -51,3 +44,38 @@ Valor | Configuracion de esa propiedad */
     color:  #ffffff;
     background-color: #cd022d;
 }
+.encabezados-paginas {
+    display: flex;
+    justify-content: center;
+    color: #096648;
+    margin: 1%;
+    font-family: "Josefin Sans", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.navbar-brand {
+    color: #cd022d;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Josefin Sans", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.navbar-toggler {
+    color: #ffffff;
+}
+.btn-outline-success-custom {
+    color: #ffffff; /* Texto en blanco */
+  }
+  .btn-outline-success-custom:hover {
+    background-color: #096648; /* Fondo verde al pasar el cursor */
+    color: white; /* Texto en blanco */
+  }
+  .parrafo-agradecimientos{
+    display: flex;
+    justify-content: center;
+  }

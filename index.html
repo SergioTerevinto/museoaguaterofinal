@@ -38,7 +38,7 @@
                 </ul>
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Buscar aquí" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                  <button class="btn btn-outline-success-custom" type="submit">Buscar</button>
                 </form>
               </div>
             </div>
@@ -46,16 +46,19 @@
     </header>
 
     <main> <!--Video principal-->
-            <div class="video">
-                <video src="video/video-inicio.mp4" class="video-inicio" controls>Video principal</video>
+      <div class="container-fluid" style="height: 100vh;">
+        <div class="row justify-content-center align-items-center" style="height: 100%;">
+            <div class="video col-12 d-flex justify-content-center">
+                <video src="video/video-inicio.mp4" class="video-inicio" controls style="width: 80%; max-width: 100%;">Video principal</video>
             </div>
+        </div>
+    </div>    
     </main>
     <footer>
-      <nav class="navbar col-sm-12 col-md-12 bg-body-tertiary">
+      <nav class="navbar-footer">
         <div class="container-fluid">
           <a class="navbar-brand" href="https:/instagram.com/museoaguatero.uy">
-            <img src="./images/Instagram_icon.png.webp" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-            Seguínos en Instagram</a>
+            <img src="./images/Instagram_icon.png.webp" alt="Logo" width="30" height="30">Seguínos en Instagram</a>
         </div>
       </nav>
     </footer>

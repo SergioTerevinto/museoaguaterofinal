@@ -38,86 +38,60 @@
                 </ul>
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Buscar aquí" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                  <button class="btn btn-outline-success-custom" type="submit">Buscar</button>
                 </form>
               </div>
             </div>
           </nav>
     </header>
-            <h1>MUSEO</h1>
-    
     <main>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
-        <div class="col">
-          <div class="card">
-            <img src="../images/gorro-2019.jpg" class="card-img-top" alt="gorro-19">
-            <div class="card-body">
-              <h5 class="card-title">GORRO LUB 2018-2019</h5>
-              <p class="card-text">Este gorro se le otorgó al plantel en los festejos posteriores a ganar el campeonato edición 2018/19.</p>
+      <h1 class="encabezados-paginas">MUSEO</h1>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="../images/seelo-correo-100.jpg" class="d-block w-100" alt="Sello Oficial">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Sello Oficial</h5>
+              <p>Sello del Correo Uruguayo que otorgó al Club Atlético Aguada por sus 100 años de vida.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="../images/medalla-estrella.jpg" class="d-block w-100" alt="Medalla estrella">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Medalla 2015</h5>
+              <p>Medalla otorgada por Aguada Atlétismo a los participantes de la carrera en conmemoración de los 93 años de historias del Club Atlético Aguada.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../images/medalla-escudo.jpg" class="d-block w-100" alt="Medalla escudo">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Medalla 2016</h5>
+              <p>Medalla otorgada por Aguada Atlétismo a los participantes de la carrera en conmemoración de los 94 años de historias del Club Atlético Aguada.</p>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <img src="../images/gorro-2023.jpg" class="card-img-top" alt="gorro-23">
-            <div class="card-body">
-              <h5 class="card-title">GORRO LUB 2023-2024</h5>
-              <p class="card-text">Este gorro se le otorgó al plantel en los festejos posteriores a ganar el campeonato edición 2023/24.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="../images/seelo-correo-100.jpg" class="card-img-top" alt="sello-correo">
-            <div class="card-body">
-              <h5 class="card-title">SELLO 100 AÑOS</h5>
-              <p class="card-text">Este sello se lo dedicó el Correo Uruguayo al Club Atlético Aguada por la conmemoración de sus 100 años de historia (1922-2022)</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="../images/medalla-10k.jpg" class="card-img-top" alt="medalla">
-            <div class="card-body">
-              <h5 class="card-title">MEDALLA 97 AÑOS</h5>
-              <p class="card-text">Esta medalla la otorgó Aguada Atletismo en la carrera por los 97 años del Club Atlético Aguada.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col"></div>
-          <div class="card">
-            <img src="../images/medalla-95k.jpg" class="card-img-top" alt="medalla">
-            <div class="card-body">
-              <h5 class="card-title">MEDALLA 95 AÑOS</h5>
-              <p class="card-text">Esta medalla la otorgó Aguada Atletismo en la carrera por los 95 años del Club Atlético Aguada.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col"></div>
-          <div class="card">
-            <img src="../images/medalla-escudo.jpg" class="card-img-top" alt="medalla">
-            <div class="card-body">
-              <h5 class="card-title">MEDALLA 93 AÑOS</h5>
-              <p class="card-text">Esta medalla la otorgó Aguada Atletismo en la carrera por los 93 años del Club Atlético Aguada.</p>
-          </div>
-        </div>
-        </div>
-          <div class="col"></div>
-            <div class="card">
-              <img src="../images/medalla-estrella.jpg" class="card-img-top" alt="medalla">
-              <div class="card-body">
-                <h5 class="card-title">MEDALLA 94 AÑOS</h5>
-                <p class="card-text">Esta medalla la otorgó Aguada Atletismo en la carrera por los 94 años del Club Atlético Aguada.</p>
-            </div>
-          </div>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </main>
-
     <footer>
-            <p>Museo virtual oficial del Club Atlético Aguada.</p>
-            <img src="../images/Instagram_icon.png.webp" width="50" height="50" alt="Logo de Instagram">
-            <p>Instagram.com/museoaguatero.uy</p>
+      <nav class="navbar-footer">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https:/instagram.com/museoaguatero.uy">
+            <img src="../images/Instagram_icon.png.webp" alt="Logo" width="30" height="30">Seguínos en Instagram</a>
+        </div>
+      </nav>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
