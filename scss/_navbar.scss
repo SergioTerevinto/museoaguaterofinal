@@ -1,0 +1,25 @@
+.navbar-brand {
+    color: $primary-color;
+    @extend %font-settings;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+  
+  .navbar-toggler {
+    color: $white-color;
+  }
+  
+  .nav-link {
+    color: $secondary-color;
+  
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  

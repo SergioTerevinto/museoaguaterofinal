@@ -1,0 +1,64 @@
+.parrafo-agradecimientos, .encabezados-paginas {
+  display: flex;
+  justify-content: center;
+}
+
+.encabezados-paginas, .navbar-brand {
+  font-family: "Josefin Sans", system-ui;
+  font-weight: 600;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+.navbar-brand {
+  color: #cd022d;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.navbar-brand:hover {
+  color: #096648;
+}
+
+.navbar-toggler {
+  color: #ffffff;
+}
+
+.nav-link {
+  color: #096648;
+}
+.nav-link:hover {
+  color: #cd022d;
+}
+
+.btn {
+  background-color: #cd022d;
+  border-color: #cd022d;
+  text-decoration-color: #ffffff;
+}
+
+.btn-submit {
+  color: #ffffff;
+  background-color: #cd022d;
+}
+
+.btn-outline-success-custom {
+  color: #ffffff;
+}
+.btn-outline-success-custom:hover {
+  background-color: #096648;
+  color: #ffffff;
+}
+
+.encabezados-paginas {
+  color: #096648;
+  margin: 1%;
+}
+
+.card-img-top {
+  width: 50%;
+  height: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */

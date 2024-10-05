@@ -1,0 +1,15 @@
+.encabezados-paginas {
+    @extend %flex-center;
+    color: $secondary-color;
+    margin: 1%;
+    @extend %font-settings;
+  }
+  
+  .parrafo-agradecimientos {
+    @extend %flex-center;
+  }
+  
+  .card-img-top {
+    width: 50%;
+    height: 50%;
+  }

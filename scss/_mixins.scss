@@ -1,0 +1,11 @@
+%flex-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  %font-settings {
+    font-family: $font-family;
+    font-weight: $font-weight-bold;
+    font-style: normal;
+    font-optical-sizing: auto;
+  }
